@@ -5497,7 +5497,7 @@ a.close.disabled {
 .modal-body {
   position: relative;
   flex: 1 1 auto;
-  padding: 1rem;
+  padding: 0px;
 }
 
 .modal-footer {
@@ -10124,7 +10124,7 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
+  padding-top: 5px;
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
