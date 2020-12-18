@@ -10585,6 +10585,94 @@ section#contact form#contactForm :-ms-input-placeholder {
   transition: 0.3s;
 }
 
+
+@media (min-width: 360px) { 
+  .close {
+  position: absolute;
+  top: 280px;
+  right: 20px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  } 
+}
+
+@media (min-width: 375px) { 
+  .close {
+  position: absolute;
+  top: 300px;
+  right: 40px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  } 
+}
+
+@media (min-width: 410px) { 
+  .close {
+  position: absolute;
+  top: 320px;
+  right: 40px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  } 
+}
+
+@media (min-width: 539px) { 
+  .close {
+  position: absolute;
+  top: 410px;
+  right: 120px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  } 
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+.close {
+  position: absolute;
+  top: 460px;
+  right: 220px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+.close {
+  position: absolute;
+  top: 40px;
+  right: -30px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+.close {
+  position: absolute;
+  top: 40px;
+  right: 140px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  } 
+}
+
 .close:hover,
 .close:focus {
   color: #bbb;
